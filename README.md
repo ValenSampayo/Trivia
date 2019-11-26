@@ -1,4 +1,4 @@
-# Trivia
+﻿# Trivia
 
 Ejercicio para Proyecto Informatico I.
 
@@ -26,5 +26,5 @@ Ejercicio para Proyecto Informatico I.
 - [x] Agregar un formulario de registro para nuevos usuarios.
 - [x] Agregar un formulario de _login_.
 - [x] Agregar autenticacion usando PassportJS con usuario y contraseña.
-- [ ] Mantener un historial de preguntas acertadas y falladas por cada usuario.
-- [ ] Mostrar 10 preguntas al azar de la base de datos no respondidas al logearse un usuario, o mejor aun, al tocar un botón que diga jugar o algo por el estilo.
+- [x] Mantener un historial de preguntas acertadas y falladas por cada usuario.
+- [x] Mostrar 10 preguntas al azar de la base de datos no respondidas al logearse un usuario, o mejor aun, al tocar un botón que diga jugar o algo por el estilo.

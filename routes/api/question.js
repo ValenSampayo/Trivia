@@ -2,17 +2,14 @@ const express = require('express');
 const router = express.Router();
 const Question = require('../../models/Question');
 const Answer = require('../../models/Answer');
-
 router.get('/questions', (req, res) => {
   Question.find().populate('answers').exec((err, questions) => {
     res.status(200).json(questions);
   });
 });
-
 router.get('/question/:id', (req, res) => {
   res.status(200).json({ msg: 'implementar' });
 });
-
 router.post('/question', (req, res) => {
   const question = new Question({
     _id: new mongoose.Types.ObjectId(),
@@ -50,5 +47,4 @@ router.post('/question', (req, res) => {
     res.status(201).json(question);
   });
 });
-
 module.exports = router;

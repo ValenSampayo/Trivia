@@ -28,6 +28,7 @@ router.get('/user/:id', (req, res) => {
     res.status(200).json(user);
   });
 });
+/* Revisar si estas lineas van o no
 
 router.delete('/user/:id', (req, res) => {
   User.findByIdAndRemove(req.params.id).exec(err => {
@@ -36,6 +37,7 @@ router.delete('/user/:id', (req, res) => {
   });
 });
 
+*/
 router.post('/user', (req, res) => {
   const user = new User({
     username: req.body.username,

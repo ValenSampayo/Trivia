@@ -9,7 +9,6 @@ function check(e) {
   }
   else
     msg.innerHTML = 'Incorrecta'
-
   // actualizar el historial del usuario
   const data = {
     question: questionId,
@@ -28,7 +27,6 @@ function check(e) {
     .then(json => {
       // nada
     });
-
   // proxima pregunta
   setTimeout(() => { window.location.replace('/play') }, 1500)
 }
